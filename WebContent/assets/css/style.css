@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('../fonts/RobotoCondensed-Bold-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Bold-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+body{
+	background-color: #fff;
+	font-family: 'roboto', Arial, sans-serif;
+}
+
+body b,
+body strong{
+	font-family: 'roboto_condensedbold', Arial, sans-serif;
+	font-weight: normal;
+}
+
+#brand img{
+	width: 400px;
+}
+
+#brand{
+	padding-top: 60px;
+	height: 180px;
+}
+
+#brand.little{
+	padding-top: 0;
+	width : 230px;
+	position : absolute;
+	top: 5px;
+}
+
+#brand.little img{
+	
+	width : 230px;
+}
+
+
+#search-form{
+	
+}
+
+form{
+	margin-top: 20px;
+}
+
+#suggested-search{
+	margin-top: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	display: none;
+}
+#suggested-search .words a{
+	margin-right: 10px;
+}
+
+#results{
+	position: relative;
+	display: none;
+	
+	margin-top: 10px;
+}
+
+#results .web-page{
+	margin-bottom: 23px;	
+}
+
+#results .web-page .title{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#results .web-page .description{
+	
+}
+
+#results .web-page .url a{
+	color: #006621;
+}
+
+#stats{
+	color: #757575;
+	margin-top: 30px;
+}
+
+#more-like-this{
+	display: none;
+}
+#more-like-this h4{
+	font-weight: bold;
+}
+#more-like-this ul{
+	list-style: none;
+	padding: 0;
+}
+
+
+/** typeahead **/
+span.twitter-typeahead .tt-dropdown-menu{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.input-group span.twitter-typeahead .tt-dropdown-menu{
+	top: 43px !important;
+}
+
+.twitter-typeahead .tt-hint {
+  color: #ccc;
+}
